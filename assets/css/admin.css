@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    background: #f5f6f8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.sidebar {
+    width: 240px;
+    min-height: 100vh;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background: #212529;
+
+    padding: 28px 20px;
+}
+
+.sidebar-title {
+    font-size: 24px;
+    font-weight: 700;
+
+    margin-bottom: 30px;
+}
+
+.sidebar .nav-link {
+    color: #e9ecef;
+
+    padding: 11px 12px;
+    margin-bottom: 6px;
+
+    border-radius: 7px;
+
+    transition: 0.2s;
+}
+
+.sidebar .nav-link:hover {
+    color: white;
+    background: #343a40;
+}
+
+.sidebar .nav-link.active {
+    color: #ffc107;
+    background: #343a40;
+}
+
+.sidebar .nav-link.disabled {
+    color: #777;
+}
+
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+.main-content {
+    margin-left: 240px;
+
+    min-height: 100vh;
+
+    padding: 32px;
+}
+
+.page-title {
+    margin: 0;
+
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+/* =========================
+   CARD CHUNG
+========================= */
+
+.table-card,
+.form-card {
+    background: white;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.form-card {
+    max-width: 1000px;
+
+    padding: 28px;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+.form-label {
+    font-weight: 600;
+}
+
+.required {
+    color: red;
+}
+
+
+/* =========================
+   TABLE CHUNG
+========================= */
+
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    background: #212529;
+    color: white;
+
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+
+/* =========================
+   BẢNG SINH VIÊN
+========================= */
+
+.student-table {
+    min-width: 1250px;
+
+    table-layout: fixed;
+}
+
+.col-masv {
+    width: 90px;
+}
+
+.col-hodem {
+    width: 150px;
+}
+
+.col-ten {
+    width: 90px;
+}
+
+.col-ngaysinh {
+    width: 115px;
+}
+
+.col-gioitinh {
+    width: 100px;
+}
+
+.col-diachi {
+    width: 220px;
+}
+
+.col-email {
+    width: 220px;
+}
+
+.col-malop {
+    width: 95px;
+}
+
+.col-sdt {
+    width: 120px;
+}
+
+.col-action {
+    width: 180px;
+}
+
+
+/* =========================
+   BẢNG KHOA
+========================= */
+
+.khoa-table {
+    width: 100%;
+
+    table-layout: fixed;
+}
+
+.khoa-makhoa {
+    width: 140px;
+}
+
+.khoa-tenkhoa {
+    width: auto;
+}
+
+.khoa-dienthoai {
+    width: 180px;
+}
+
+.khoa-action {
+    width: 180px;
+}
+
+
+/* =========================
+   TIỆN ÍCH
+========================= */
+
+.text-wrap-cell {
+    white-space: normal;
+    word-break: break-word;
+}
+
+.action-cell {
+    white-space: nowrap;
+}
